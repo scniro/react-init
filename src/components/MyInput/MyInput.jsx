@@ -20,7 +20,7 @@ export default class MyInput extends React.Component {
 
         return (
             <div>
-                <input onChange={this.onChange.bind(this)} />
+                <input value={this.state.value} onChange={this.onChange.bind(this)} />
             </div>
         );
     }
